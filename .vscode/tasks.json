@@ -4,11 +4,9 @@
         {
             "label": "CMake: Configure",
             "type": "shell",
-<<<<<<< HEAD
+
             "command": "D:/tools/mingw64/bin/g++.exe",
-=======
-            "command": "D:/soft/tools/mingw64/bin/g++.exe",
->>>>>>> a60e552b3af3a1ae7b5da2a31f5e315a21f6512e
+
             "args": [
                 "-S",
                 "${workspaceFolder}",
@@ -25,11 +23,9 @@
         {
             "label": "CMake: Build",
             "type": "shell",
-<<<<<<< HEAD
+
             "command": "D:/tools/cmake/bin/cmake.exe",
-=======
-            "command": "D:/soft/tools/cmake3.28/bin/cmake.exe",
->>>>>>> a60e552b3af3a1ae7b5da2a31f5e315a21f6512e
+
             "args": [
                 "--build",
                 "${workspaceFolder}/build"
@@ -42,11 +38,9 @@
         {
             "label": "C/C++: g++.exe build active file",
             "type": "cppbuild",
-<<<<<<< HEAD
+
             "command": "D:/tools/mingw64/bin/g++.exe",
-=======
-            "command": "D:/soft/tools/mingw64/bin/g++.exe",
->>>>>>> a60e552b3af3a1ae7b5da2a31f5e315a21f6512e
+
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
