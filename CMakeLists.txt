@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 3.8)
 
-project ("learnOpenGL")
+project ("opengl_ws")
 
 
 set(CMAKE_CUDA_STANDARD 17)

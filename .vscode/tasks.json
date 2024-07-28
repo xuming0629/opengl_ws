@@ -4,7 +4,7 @@
         {
             "label": "CMake: Configure",
             "type": "shell",
-            "command": "D:/soft/tools/mingw64/bin/g++.exe",
+            "command": "D:/tools/mingw64/bin/g++.exe",
             "args": [
                 "-S",
                 "${workspaceFolder}",
@@ -21,7 +21,7 @@
         {
             "label": "CMake: Build",
             "type": "shell",
-            "command": "D:/soft/tools/cmake3.28/bin/cmake.exe",
+            "command": "D:/tools/cmake/bin/cmake.exe",
             "args": [
                 "--build",
                 "${workspaceFolder}/build"
@@ -34,7 +34,7 @@
         {
             "label": "C/C++: g++.exe build active file",
             "type": "cppbuild",
-            "command": "D:/soft/tools/mingw64/bin/g++.exe",
+            "command": "D:/tools/mingw64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",

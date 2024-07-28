@@ -5,14 +5,14 @@
             "name": "Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/learn",
+            "program": "${workspaceFolder}/build/learnOpenGL/learnOpenGL.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:/soft/tools/mingw64/bin/gdb.exe",
+            "miDebuggerPath": "D:/tools/mingw64/bin/gdb.exe",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
