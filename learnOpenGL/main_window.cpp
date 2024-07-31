@@ -40,8 +40,6 @@ int main()
 	}
 
 
-    // 设置视口
-    // glViewport(0, 0, 800, 600);
 
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
