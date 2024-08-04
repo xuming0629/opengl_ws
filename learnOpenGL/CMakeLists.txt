@@ -7,7 +7,7 @@ cmake_minimum_required (VERSION 3.8)
 # add_executable(learnOpenGL main.cpp)
 # add_executable(learnOpenGL main01.cpp)
 # add_executable(learnOpenGL main02.cpp)
-add_executable(learnOpenGL hello_glsl_01.cpp)
+add_executable(learnOpenGL hello_glsl_unform.cpp)
 
 # 包含主项目的包含目录
 target_include_directories(learnOpenGL PRIVATE
